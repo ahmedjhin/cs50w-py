@@ -19,13 +19,12 @@ def keyfun(aboki, aop):
 
 
 
-keyfun(housaes,keyss)
+keyfun(houses,keys)
 
 
 def square(x):
     aio = x * x 
-    aiol = aio + 11
-    return aiol 
+    return aio 
 
 for i in range(1,10):
     print(f"we have {i} {square(i)} aloha")

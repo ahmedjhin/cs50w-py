@@ -1,23 +1,24 @@
 class point:
     def __init__(self, capacity,): 
         self.capacity = capacity
-        self.passanger = []
+        self.passenger = []
         
-    def add_passengerss(self, name):
+        
+    def add_passengers(self, name):
         if not self.open_seats():
             return False
-        self.passanger.append(name) 
+        self.passenger.append(name) 
         return True
     
     def open_seats(self):
-        return self.capacity - len(self.passanger)
+        return self.capacity - len(self.passenger)
 
 flight = point(5)
 
-pepole = ["Harry", "ron", "jetty", "kubo"]
+pepole = ["Harry", "jetty", "jetty"]
 
 for person in pepole:
-    Success = flight.add_passengerss(person)
+    Success = flight.add_passengers(person)
     if Success:
         print(f"Add {person} to flight successfully.")
     else:

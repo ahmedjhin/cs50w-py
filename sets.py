@@ -3,10 +3,19 @@ s = set()
 s.add("ado")
 s.add("adow")
 s.add("adq")
-print(s)
 
-ago = ["asd","qwe","jhgf"]
 
-ago.append("المطروسي")
+ago = ["ahmed","ali","naser"]
 
-print(f"we have {len(s)} names in the wallet")
+
+
+
+
+names = ", ".join(ago)
+
+    
+    
+print(f"we have {names} DOLLAS in the wallet")
+
+
+

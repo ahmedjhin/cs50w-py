@@ -10,9 +10,9 @@ def print_name3(userInput: str):
             
 
 def validation(userInput: str) -> bool:
-    if userInput.isnumeric() and 1 <= int(userInput) <= len(names):
+    if userInput.isnumeric() and  1 <= int(userInput) <= len(names) :
         return True
     return False
 
 
-print_name3(input("pick a number: "))
+print_name3(input("pick a number in range of 1 and 3: "))

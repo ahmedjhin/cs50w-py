@@ -3,28 +3,18 @@ houses = {
         "Draco": "Slytherin",
         "ali": "chikago"
 }
-housaes = {
-        "hassrry": "Grifssssssssssfindor",
-        "Dracssssssso": "Slsssssytherin",
-        "alssssssssssi": "chissssssskago"        
-}
 
+
+houses["amigos"] = "Griffindor"
 
 keys = ["harry", "Draco", "ali"]
 
-keyss = ["hassrry", "Dracssssssso", "alssssssssssi"]
-def keyfun(aboki, aop):
+def keyfun(aop, aboki):
     for key in aop:
-        print(f" {key} - {aboki[key]}")
+        print(f" {key} {aboki[key]}")
 
 
 
-keyfun(houses,keys)
+keyfun(keys,houses)
 
 
-def square(x):
-    aio = x * x 
-    return aio 
-
-for i in range(2,10):
-    print(f"we have {i} {square(i)} aloha")

@@ -13,9 +13,9 @@ class point:
     def open_seats(self):
         return self.capacity - len(self.passenger)
 
-flight = point(5)
+flight = point(2)
 
-pepole = ["Harry", "jetty", "jetty"]
+pepole = ["Harry", "botter", "jetty"]
 
 for person in pepole:
     Success = flight.add_passengers(person)

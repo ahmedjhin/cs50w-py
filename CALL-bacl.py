@@ -11,18 +11,18 @@ def players(player):
 players(player1)
 
 
-s = ''
 
-for i in data:
-    s.append({i})
+
+for i in range(1):
+  amigo = data[i]
     
 
-print(s)
+print(amigo)
 
 str_1 = 'hello'
 
 str_2 = 'world'
 
-result = str_1 + ' ' + str_2
+result = str_1 + " " + amigo + " " + str_2
 
 print(result)  # 👉️ 'hello world'

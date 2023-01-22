@@ -13,7 +13,7 @@ class point:
     def open_seats(self):
         return self.capacity - len(self.passenger)
 
-flight = point(2)
+flight = point(5)
 
 pepole = ["Harry", "botter", "jetty"]
 

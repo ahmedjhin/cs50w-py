@@ -1,7 +1,9 @@
-a = ['# this is a comment',1 ,'#another one',2]
-data1 = [x for x in a if not isinstance(x,int)]
+def dict(first_name,last_name):
+    d = {"amigo_name": first_name, "last_name" : last_name}
+
+    #print the dic in one line with out the pracits.
+    print(d)
 
 
 
-
-print(data1) 
+dict(input("your name amigo: "),input("entieru name: "))

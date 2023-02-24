@@ -8,12 +8,13 @@ y = (input(f"y: "))
 
     
 
-def cheque(x,y):
-    if x.isnumeric() and y.isnumeric():
+def cheque(o,l):
+    if o.isnumeric() and l.isnumeric():
         return True
     else:
         print("inter numbers pleas") 
     sys.exit()
+
 cheque(x,y)
 
 def makeINT(x,y):

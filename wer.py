@@ -15,7 +15,7 @@ def my_join(strings, separator):
     
  
 niger = ["alio", "ohyeah"]
-separator = ''
+separator = ' '
 ohyeao = my_join(niger,separator)
 
 print(ohyeao)

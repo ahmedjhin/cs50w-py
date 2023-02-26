@@ -23,4 +23,7 @@ for person in pepole:
          print(f"added {person}")
     else:
         print(f"not add {person}")
-        
+
+
+
+name = ['one','tow','three']      

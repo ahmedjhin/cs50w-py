@@ -43,12 +43,20 @@ class Flight():
 
     
     def addpasengers(self, name):
-        self.passengers.append(name)\
+        if self.openseats() == 0:
+            return False
+        self.passengers.append(name)
+        return True
     
     def openseats(self):
         return self.capacity - len(self.passengers)
 
 
-flight = Flight(3)
+flight = Flight(2)
 pasengerzz = ['ahmed', 'moaz','abdo']
-flight.addpasengers(pasengerzz)
+for person in pasengerzz:
+    success = flight.addpasengers(person)
+    if success:
+        print(f"Add {person} to flight successfully.")
+    else:
+        print(f"thery is no avilable seats for {person}")

@@ -3,7 +3,6 @@ def announce(f):
         print("starting ...")
         f()
         print("Done with the function.")
-
     return wrapper
 
 @announce

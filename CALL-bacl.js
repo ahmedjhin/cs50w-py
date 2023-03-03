@@ -8,7 +8,7 @@ symbols = {
     "M": 1000
 };
 
-var romanToInt = function(s) {
+let romanToInt = function(s) {
     value = 0;
     for(let i = 0; i < s.length; i+=1){
         symbols[s[i]] < symbols[s[i+1]] ? value -= symbols[s[i]]: value += symbols[s[i]]
@@ -16,5 +16,5 @@ var romanToInt = function(s) {
     return value
 };
 
-print(romanToInt("I","X"))
+console.log(romanToInt("C"))
 
